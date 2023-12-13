@@ -34,7 +34,8 @@ button.pack(padx=20, pady=20)
 
 # Exit click button command = {Instructions when button pressed/clicked}
 # this EXIT button quit the GUI
-Exit = tk.Button(root, text="Exit", command=root.quit)
+Exit = tk.Button(root, text="Exit", foreground="Gold", background="Red", activebackground="Blue",
+                   activeforeground="Red", font=('Arial', 15, 'bold'), command=root.quit)
 # pack({x coordinates, y coordinates}) Place Exit padx,pady after button in GUI
 Exit.pack(padx=20, pady=20)
 
