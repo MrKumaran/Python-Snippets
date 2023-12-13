@@ -70,10 +70,10 @@ buttonFrame.pack(fill='x', pady=1)
 
 # Exit click button command = {Instructions when button pressed/clicked}
 # this EXIT button quit the GUI
-Exit = tk.Button(root, text="Exit", width=10, height=1, borderwidth=15, foreground="Gold", background="Red",
-                 activebackground="Blue", activeforeground="Red", font=('Arial', 15, 'bold'), command=root.quit)
-# pack({x coordinates, y coordinates}) Place Exit padx,pady after button in GUI
-Exit.pack(padx=350, pady=50)
+Exit = tk.Button(root, text="Exit", width=10, height=1, foreground="White", background="Red",
+                 activebackground="Blue", activeforeground="Black", font=('Arial', 15, 'bold'), command=root.quit)
+# place function manually place widgets in screen at mentions coordinates
+Exit.place(x=780, y=650)
 
 # mainloop Generates GUI with mentions properties and exit when root.quit command passed or clicked cross symbol
 root.mainloop()
