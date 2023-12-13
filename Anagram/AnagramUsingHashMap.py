@@ -22,6 +22,7 @@ def isanagram(string1, string2):
 
     return not hashmap
 
+
 if __name__ == '__main__':
     wordOne = input("Enter the first string: ")
     wordTwo = input("Enter the second string: ")
