@@ -3,9 +3,9 @@ import time
 import sys
 
 
-# generates RandomNumbers b/w 1 to 1 billion
+# generates RandomNumbers b/w 1 to 1 billion using generators
 def randomNumberGenerator():
-    return random.randint(1, 1000_000_000)
+    yield random.randint(1, 1000_000_000)
 
 
 # driver code
@@ -14,9 +14,9 @@ if __name__ == '__main__':
     limit = int(input("How many"))
     randomNumbers = []
     for i in range(limit):
-        randomNumbers.append(randomNumberGenerator())
+        randomNumbers.append(next(randomNumberGenerator()))
     stopTIme = time.time()
     print("Generated")
     print(randomNumbers)
     print("Time Taken =", stopTIme - startTIme)
-    print(sys.getsizeof(randomNumberGenerator()))
+    print("Size of randomNumberGeneratorFunction =", sys.getsizeof(randomNumberGenerator()))
