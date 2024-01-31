@@ -5,7 +5,7 @@ import sys
 
 # generates RandomNumbers b/w 1 to 1 billion using generators
 def randomNumberGenerator():
-    yield random.randint(1, 1000_000_000)
+    yield random.randint(1, 1000_000_000_000)
 
 
 # driver code
