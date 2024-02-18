@@ -4,6 +4,9 @@ import sys
 
 randomNumbers = []
 
+""" 
+Code won't work properly with recursion since it won't allow over 1000 times
+"""
 
 # generates RandomNumbers b/w 1 to 1 billion
 def randomNumberGenerator(limit):
