@@ -10,9 +10,9 @@ def randomNumberGenerator():
 
 # driver code
 if __name__ == '__main__':
-    startTIme = time.time()
     limit = int(input("How many"))
     randomNumbers = []
+    startTIme = time.time()
     for i in range(limit):
         randomNumbers.append(next(randomNumberGenerator()))
     stopTIme = time.time()
