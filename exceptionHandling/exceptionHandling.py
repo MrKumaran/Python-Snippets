@@ -2,7 +2,7 @@
 while True:
     # try block execute code defined in it and if error occurs transfer control to except
     try:
-        user_input = input("Enter a number: ")
+        user_input = int(input("Enter a number: "))
         # if no error arises then break infinity loop
         break
     # if valueError arises except block will catch that error and prevent program from crashing

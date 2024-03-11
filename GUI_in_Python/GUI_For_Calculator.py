@@ -9,8 +9,7 @@ root.geometry("1000x1000")
 root.title("Calculator")
 # Content of the GUI Text = {Text Need to Display},foreground = Textcolor,background = Text background color
 # font = {test font properties}.
-label = tk.Label(root, text="Calculator", width=10, height=1, foreground="Red", borderwidth=10, background="Silver",
-                 font=("Arial", 20, "bold"))
+label = tk.Label(root, text="Calculator", width=10, height=1, foreground="Red", borderwidth=10, background="White",font=("Arial", 20, "bold"))
 # pack({x coordinates, y coordinates}) Place label in GUI
 label.pack(padx=20, pady=20)
 
