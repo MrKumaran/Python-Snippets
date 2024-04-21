@@ -1,0 +1,12 @@
+Additional regular expressions
+
+1. \w   -   matches with any alphanumeric character.
+2. .    -   matches to all characters, including symbols.
+3. \d   -   matches to all single digits [0-9].
+4. \s   -   matches to all single spaces.
+5. \.   -   matches to the period character.
+6. +    -   represents one or more occurrences of a specific character.
+
+Notes:
+"\d{2}" instructs Python to return all matches of exactly two single digits in a row
+there are many more this is an just an starting examples
