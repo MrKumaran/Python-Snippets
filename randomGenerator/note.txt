@@ -1,0 +1,5 @@
+This code using random module to create
+large number of numbers
+random password generator
+
+Remove os module if it is present in module I used it for time test.

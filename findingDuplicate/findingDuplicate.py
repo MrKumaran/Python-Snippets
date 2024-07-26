@@ -1,8 +1,6 @@
-def isduplicate(array) -> bool:
-
+def isduplicate(array):
     # converting list to a set because set removes duplicates
     setOfArray = set(array)
-
     # comparing length of list and set if len is not same then there is duplicate element
     if len(array) != len(setOfArray):
         return True

@@ -1,0 +1,1 @@
+Different ways to format string in python

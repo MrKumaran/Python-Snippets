@@ -10,5 +10,6 @@ while True:
         # sends a user  warning message
         print("Invalid Enter Number ")
 
+
 # after Breaking loop we can execute other block of codes like normal
 print('Entered Number is', user_input)

@@ -1,0 +1,2 @@
+This code compress image files to mention size.
+no data is going outside our system.

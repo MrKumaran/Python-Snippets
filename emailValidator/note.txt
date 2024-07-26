@@ -1,0 +1,2 @@
+This code validate a Mail id passed to it.
+Return True if it is passed else return False.

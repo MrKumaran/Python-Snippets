@@ -58,22 +58,17 @@ if __name__ == "__main__":
               "Apart from these option will EXIT program.\n")
         user_input = int(input("Enter a number: "))
         # based on user_input it will perform operation
-        # push
         if user_input == 1:
             push(int(input('Enter a Element: ')))
-        # pop
         elif user_input == 2:
-            # if top is -1 it means stack is empty
             if top == -1:
                 print("Stack is empty")
             else:
                 stack_pop, minstack_pop = pop()
                 print('Pop element from stack: ', stack_pop)
                 print('Pop element from min stack: ', minstack_pop)
-        # display stack
         elif user_input == 3:
             displayStack()
-        # display minstack
         elif user_input == 4:
             displayMinStack()
         # any other option that not in menu will exit the program
