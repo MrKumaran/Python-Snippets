@@ -828,3 +828,12 @@ def make_amount(rupees_to_make, no_of_five, no_of_one):
 make_amount(28, 8, 5)
 """
 
+
+def calculate_bill_amount(food_type,quantity_ordered,distance_in_kms):
+    bill_amount=0
+    #write your logic here
+    return bill_amount
+
+#Provide different values for food_type,quantity_ordered,distance_in_kms and test your program
+bill_amount=calculate_bill_amount("N",2,7)
+print(bill_amount)
