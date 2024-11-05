@@ -1,1 +1,0 @@
-Converts 12hr time format to 24hr time format

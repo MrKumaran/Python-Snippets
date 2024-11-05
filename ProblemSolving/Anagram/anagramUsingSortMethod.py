@@ -1,6 +1,6 @@
-def isanagram(str1, str2):  # check for anagram or not
+def isanagram(str1, str2):  # check for Anagram or not
     if len(str1) != len(str2):
-        # if length of strings are not same then automatically it is not anagram
+        # if length of strings are not same then automatically it is not Anagram
         return False
     else:
         # sorting the string and comparing two strings

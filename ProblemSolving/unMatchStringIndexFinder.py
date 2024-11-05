@@ -1,3 +1,8 @@
+"""
+Gets two strings (or array of number if modifications made)
+return index at where two strings are different
+"""
+
 # Getting Two string from user
 string1 = input('Enter String 1: ')
 string2 = input('Enter String 2: ')

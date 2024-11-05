@@ -1,2 +1,0 @@
-Permutation and Combination may look like they were doing same task but
-difference is how they do it

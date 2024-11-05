@@ -1,3 +1,9 @@
+"""
+The list of numbers were given
+which includes duplicates
+
+job is to find the number which is only occur once
+"""
 def lonelyInteger(a):
     # checks length of list
     if len(a) == 2:

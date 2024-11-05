@@ -1,3 +1,10 @@
+"""
+Efficient method for finding the nth Fibonacci number
+
+fib_eff is faster one(more memory)
+Fibonacci is slower one(more time)
+"""
+
 import time as t
 
 

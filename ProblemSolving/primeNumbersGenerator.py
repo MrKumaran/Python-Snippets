@@ -1,4 +1,5 @@
 # Function to check primes Number
+# Display primenumbers using FILTER in-build Function.
 def isPrime(num):
     for i in range(2, num):
         if num % i != 0:

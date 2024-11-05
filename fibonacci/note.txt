@@ -1,4 +1,0 @@
-Efficient method for finding the nth Fibonacci number
-
-# fib_eff is faster one
-# Fibonacci is slower one
