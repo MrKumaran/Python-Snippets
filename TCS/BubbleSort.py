@@ -1,16 +1,20 @@
 n = int(input())
 arr = list(map(int, input().split()))
-darr = arr
-Acount = 0
-Dcount = 0
-for i in range(n - 1, 0, -1):
-    for j in range(i):
+
+# Ascending Bubble Sort with Swap Counting
+asc_swaps = 0
+for i in range(n):
+    for j in range(0, n - i - 1):
         if arr[j] > arr[j + 1]:
             arr[j], arr[j + 1] = arr[j + 1], arr[j]
-            Acount += 1
-for i in range(n - 1, 0, -1):
-    for j in range(i):
-        if darr[j] < darr[j + 1]:
+            asc_swaps += 1
+
+# Descending Bubble Sort with Swap Counting
+desc_swaps = 0
+for i in range(n):
+    for j in range(0, n - i - 1):
+        if arr[j] < arr[j + 1]:
             arr[j], arr[j + 1] = arr[j + 1], arr[j]
-            Dcount += 1
-print(min(Acount, Dcount))
+            desc_swaps += 1
+
+print(min(asc_swaps, desc_swaps))
